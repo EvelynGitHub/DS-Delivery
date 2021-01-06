@@ -1,8 +1,13 @@
 import "./styles.css";
 // import { ReactComponent as Logo } from "./logo.svg";
+import StepsHeader from "./StepsHeader";
 
 function Orders() {
-  return <h1>Orders</h1>;
+  return (
+    <div className="orders-container">
+      <StepsHeader />
+    </div>
+  );
 }
 
 export default Orders;
