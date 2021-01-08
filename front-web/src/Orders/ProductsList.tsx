@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { checkIsSelected } from "./helpers";
 import ProductCard from "./ProductCard";
 import { Product } from "./types";
